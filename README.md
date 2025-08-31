@@ -2,12 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Handwritten Equation Solver</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.5; margin: 20px; color: #333; }
-        h1 { color: #2c3e50; }
-        p { margin-bottom: 10px; }
-    </style>
+   
 </head>
 <body>
 
