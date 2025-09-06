@@ -16,5 +16,6 @@
 
 <p><strong>Goal:</strong> Convert handwritten equations into digital format and solve automatically.</p>
 
+
 </body>
 </html>
