@@ -102,9 +102,9 @@ def predict():
         img_gray = np.array(img)
         print("[DEBUG] Canvas shape:", img_gray.shape)
 
-        session_id = str(uuid.uuid4())[:8]
-        os.makedirs("debug_inputs", exist_ok=True)
-        cv2.imwrite(f"debug_inputs/{session_id}_raw.png", img_gray)
+        # session_id = str(uuid.uuid4())[:8]
+        # os.makedirs("debug_inputs", exist_ok=True)
+        # cv2.imwrite(f"debug_inputs/{session_id}_raw.png", img_gray)
 
         inverted, boxes = detect_contours_merge(img_gray)
 
