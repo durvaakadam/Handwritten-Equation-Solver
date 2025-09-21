@@ -19,6 +19,11 @@ It combines **deep learning (TensorFlow/Keras)** with **OpenCV preprocessing** a
 - Automatic equation parsing and solving.
 
 ---
+## Demo
+
+Here’s an example of a handwritten equation drawn on the canvas:
+
+![Demo Canvas](canvas_images/demo.jpeg)
 
 ## Technology Stack
 
