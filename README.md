@@ -23,7 +23,7 @@ It combines **deep learning (TensorFlow/Keras)** with **OpenCV preprocessing** a
 
 Here’s an example of a handwritten equation drawn on the canvas:
 
-![Demo Canvas](static/demo.jpeg)
+![Demo Canvas](static/demo.png)
 
 ## Technology Stack
 
