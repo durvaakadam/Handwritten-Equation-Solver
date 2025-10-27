@@ -1,4 +1,4 @@
-# Handwritten Equation Solver
+# MATHSCRIBE
 
 A Python/Flask-based application that recognizes handwritten mathematical equations from a **canvas input** or **uploaded image**, reconstructs the equation, and solves it automatically.  
 It combines **deep learning (TensorFlow/Keras)** with **OpenCV preprocessing** and provides a web-based interface for easy interaction.
