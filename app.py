@@ -91,6 +91,13 @@ def resize_pad(img, size=(45,45), pad_value=0):
 
 @app.route("/")
 def index():
+    # Landing page for MathScribe
+    return render_template("home.html")
+
+
+@app.route("/main")
+def main_page():
+    # Main application page (canvas and prediction UI)
     return render_template("index.html")
 
 @app.route("/predict", methods=["POST"])

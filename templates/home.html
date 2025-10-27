@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MathScribe — Handwritten Equation Solver</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <style>
+    /* === Dark Retro Notebook Theme === */
+    body {
+      font-family: 'Gloria Hallelujah', cursive;
+      background: #1b1b1b url('https://www.transparenttextures.com/patterns/dark-denim-3.png');
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fffae6;
+    }
+
+    /* === Container === */
+    .container {
+      background: #2b2b2b;
+      border: 2px solid #444;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+      width: 90%;
+      max-width: 800px;
+      padding: 60px 40px;
+      text-align: center;
+      transform: rotate(-0.5deg);
+    }
+
+    /* === Title === */
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      color: #ffda77;
+      background: #333;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 10px;
+      border-bottom: 3px solid #ffda77;
+    }
+
+    /* === Subtitle === */
+    h2 {
+      font-size: 1.2rem;
+      color: #ddd;
+      font-weight: normal;
+      margin-bottom: 28px;
+    }
+
+    /* === Description === */
+    p {
+      color: #f0f0f0;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 0 auto 35px;
+    }
+
+    /* === Button === */
+    .enter-btn {
+      padding: 14px 36px;
+      background: #ffda77;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #111;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .enter-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255,218,119,0.5);
+    }
+
+    /* === Footer === */
+    footer {
+      margin-top: 40px;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    /* === Responsive === */
+    @media (max-width: 700px) {
+      .container {
+        padding: 40px 25px;
+      }
+      h1 { font-size: 2.4rem; }
+      p { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>MathScribe</h1>
+    <h2>Handwritten Equation Solver</h2>
+
+    <p>
+      Write equations naturally — just like on paper. MathScribe intelligently recognizes handwritten mathematical symbols,
+      converts them to digital expressions, and computes accurate results in real-time.
+    </p>
+
+    <form action="/main">
+      <button class="enter-btn">Open MathScribe</button>
+    </form>
+
+    <footer>Made with ❤️ — Simplifying handwritten mathematics</footer>
+  </div>
+
+</body>
+</html>
